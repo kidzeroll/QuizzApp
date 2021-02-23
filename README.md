@@ -5,7 +5,7 @@ Referensi : https://www.youtube.com/watch?v=kwPhP6Uuw50&pbjreload=101 </br>
 
 Quizz App
 - Tampilan Splash
-![splash](https://user-images.githubusercontent.com/55922381/108874943-44846580-762f-11eb-8784-f902e7df8da0.jpg = 200x500)
+![splash](https://user-images.githubusercontent.com/55922381/108874943-44846580-762f-11eb-8784-f902e7df8da0.jpg =100x20)
 
 - Tampilan Menu
 ![main menu](https://user-images.githubusercontent.com/55922381/108875076-6251ca80-762f-11eb-8e5f-04383f6c3255.jpg)

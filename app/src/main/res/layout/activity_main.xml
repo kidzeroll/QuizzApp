@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mLL1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@drawable/layout_menu">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/text_logo"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            app:tint="@color/red" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:id="@+id/mLL2"
+        android:background="@color/red"
+        android:layout_below="@+id/mLL1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:background="@drawable/btn_menu"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:text="Main"
+            android:elevation="2dp"
+            android:onClick="mainGame"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_menu"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:text="Keluar"
+            android:elevation="2dp"
+            android:onClick="keluarGame"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

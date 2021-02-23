@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputNamaActivity">
+
+    <LinearLayout
+        android:id="@+id/iLL1"
+        android:padding="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/red"
+        android:layout_height="350dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Nama Anda"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/tv_input"
+            android:layout_marginTop="50dp"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/edit_text"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/iLL2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/iLL1"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_lanjutkan"
+            android:background="@drawable/btn_choise"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Lanjutkan"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

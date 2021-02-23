@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:id="@+id/qLL1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/red">
+
+        <LinearLayout
+            android:id="@+id/qLL3"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama : KK"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score : 3"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qLL4"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/tv_pertanyaan"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/question"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:text="Pertanyaan disini\nPertanyaan disini\nPertanyaan disini"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:id="@+id/qLL2"
+        android:layout_below="@+id/qLL1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:elevation="2dp"
+            android:onClick="onClick"
+            android:layout_marginTop="16dp"
+            android:id="@+id/choice1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="A"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_choise"/>
+
+        <Button
+            android:elevation="2dp"
+            android:onClick="onClick"
+            android:id="@+id/choice2"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="B"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_choise"/>
+
+        <Button
+            android:elevation="2dp"
+            android:onClick="onClick"
+            android:id="@+id/choice3"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="C"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_choise"/>
+
+        <Button
+            android:elevation="2dp"
+            android:onClick="onClick"
+            android:id="@+id/choice4"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="D"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_choise"/>
+    </LinearLayout>
+
+</RelativeLayout>

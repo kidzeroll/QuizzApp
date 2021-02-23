@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HighestScoreActivity">
+
+    <LinearLayout
+        android:id="@+id/sLL1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/red"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_nama2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="@color/white"
+            android:textSize="44sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_below="@+id/sLL1"
+        android:id="@+id/sLL2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textHighScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score Tertinggi : 5"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <Button
+        android:elevation="2dp"
+        android:background="@drawable/btn_main_lagi"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Menu"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:onClick="onClick"/>
+
+</RelativeLayout>

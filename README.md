@@ -1,7 +1,7 @@
 # QuizzApp
-Nama : Muhammad Haykal
-Nim : 2019302028
-Referensi : https://www.youtube.com/watch?v=kwPhP6Uuw50&pbjreload=101
+Nama : Muhammad Haykal </br>
+Nim : 2019302028 </br>
+Referensi : https://www.youtube.com/watch?v=kwPhP6Uuw50&pbjreload=101 </br>
 
 Quizz App
 - Tampilan Splash
